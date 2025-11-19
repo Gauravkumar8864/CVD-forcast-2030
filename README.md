@@ -158,7 +158,7 @@ All outputs will appear in the `outputs/` folder.
 
 ## 👨‍💻 Author
 
-**Gaurav Sharma**  
+**Gaurav Kumar**  
 Master of Science in Artificial Intelligence  
 Focused on ML Engineering, PySpark, and AI-driven forecasting.
 
