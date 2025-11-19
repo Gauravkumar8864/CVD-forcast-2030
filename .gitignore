@@ -1,18 +1,54 @@
+# -----------------------------
 # Python
+# -----------------------------
 __pycache__/
 *.pyc
 *.pyo
-.pytest_cache/
+*.whl
+*.egg-info/
+.env
+.venv
 
-# Jupyter
+# -----------------------------
+# Jupyter Notebooks
+# -----------------------------
 .ipynb_checkpoints/
+**/.ipynb_checkpoints
 
-# Spark outputs
-outputs/**
+# -----------------------------
+# Spark Temporary Outputs
+# -----------------------------
+**/outputs/*/
+**/outputs/*.crc
+**/outputs/_SUCCESS
 
-# Data (toggle based on preference)
-dataset/*.csv
+# Spark temp working folders
+**/spark-warehouse/
+**/metastore_db/
 
-# OS
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# OS Files
+# -----------------------------
 *.DS_Store
 Thumbs.db
+
+# -----------------------------
+# Data (large files)
+# Allow dataset folder but ignore CSVs by default
+# -----------------------------
+dataset/*.csv
+data/*.csv
+
+# Uncomment if you want to track some sample small test files
+# !dataset/sample.csv
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
