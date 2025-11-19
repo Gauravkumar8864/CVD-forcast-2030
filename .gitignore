@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark outputs
+outputs/**
+
+# Data (toggle based on preference)
+dataset/*.csv
+
+# OS
+*.DS_Store
+Thumbs.db
